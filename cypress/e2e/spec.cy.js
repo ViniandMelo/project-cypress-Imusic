@@ -2,7 +2,7 @@ beforeEach(() => {
   cy.visit('https://imusic.br.com/')
 });
 
-describe('Pesquisa e finalização carrinho Imusic', () => {
+describe('Pesquisa e finalizaçao carrinho Imusic', () => {
   it('entrada home Imusic', () => {
   
     cy.get('#top-navbar')
