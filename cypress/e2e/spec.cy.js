@@ -2,7 +2,7 @@ beforeEach(() => {
   cy.visit('https://imusic.br.com/')
 });
 
-describe('Pesquisa e carrinho Imusic', () => {
+describe('Pesquisa e finalização carrinho Imusic', () => {
   it('entrada home Imusic', () => {
   
     cy.get('#top-navbar')
@@ -32,7 +32,7 @@ describe('Pesquisa e carrinho Imusic', () => {
 
     cy.get('.cart > #items-in-cart')
     .click()
-    cy.get('#cart-quantity-888072025097')
+    cy.get('#cart-quantity-888072284890')
     .should('be.visible', '1')
   });
 })
